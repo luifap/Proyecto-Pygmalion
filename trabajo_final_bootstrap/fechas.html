@@ -14,7 +14,61 @@
 </head>
 <body>
 
-<div class="jumbotron one text-center" style="margin-bottom: 0">
+  <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg" alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">This is the first title</h3>
+          <p>First text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" alt="Second slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Thir is the second title</h3>
+          <p>Secondary text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg" alt="Third slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">This is the third title</h3>
+          <p>Third text</p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
 </div>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="#">Barra de Menú</a>
@@ -54,13 +108,30 @@
       </ul>
       <hr class=" d-sm-nome">
     </div>
+    <div class="col-sm-2 cen">
+    </div>  
+    <div class="col-sm-6 cen">
+      <br><br>
+      <div class="row">
+        
+        <h1 class="text-primary">Agenda tú día especial</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
     <div class="col-sm-10 cen">
       <div class="row">
-        <iframe src="https://calendar.google.com/calendar/embed?height=564&amp;wkst=1&amp;bgcolor=%23E4C441&amp;ctz=America%2FBogota&amp;src=cWZoZnNjaWszcXIwbDU3MTkzdHM2NmJ0Y2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161" style="border:solid 1px #777" width="1000" height="564" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?src=qfhfscik3qr0l57193ts66btck%40group.calendar.google.com&ctz=America%2FBogota"style="border:solid 1px #777" width="1000" height="564"  frameborder="0" scrolling="no"></iframe>
       </div>
     </div>
   </div>
 </div>
+
 
   <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark bg-dark">

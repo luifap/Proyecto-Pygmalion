@@ -7,24 +7,80 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="dist/css/bootstrap.css">
 <link rel="stylesheet" href="scss/css/estilos.css">
-<!-- styles -->
-<link rel="stylesheet" href="assets/css/fancybox/jquery.fancybox.css">
-<link href="assets/css/bootstrap.css" rel="stylesheet" />
-<link href="assets/css/bootstrap-theme.css" rel="stylesheet" />
-<link rel="stylesheet" href="assets/css/slippry.css">
-<link href="assets/css/style.css" rel="stylesheet" />
-<link rel="stylesheet" href="assets/color/default.css">
-<script src="assets/js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="styles.css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!------ Include the above in your HEAD tag ---------->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <title>Trabajo Final</title>
 </head>
 <body>
 
-<div class="jumbotron one text-center" style="margin-bottom: 0">
-
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg" alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">This is the first title</h3>
+        <p>First text</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" alt="Second slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Thir is the second title</h3>
+        <p>Secondary text</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg" alt="Third slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">This is the third title</h3>
+        <p>Third text</p>
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
 </div>
+<!--/.Carousel Wrapper-->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="#">Barra de Menú</a>
   <button class="navba-toggler" type="button" data-toggle="collapse" data-target="#collpasibleNavar">
@@ -49,63 +105,127 @@
       <h2>Menú</h2>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Inicio</a>
+          <a class="nav-link" href="index.html" style="color: #E3A820;" >Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="gastronomia.html">Gastronomía</a>
+          <a class="nav-link" href="gastronomia.html" style="color: #E3A820;">Gastronomía</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="galeria.html">Galería</a>
+          <a class="nav-link active" href="galeria.html" style="color: #E3A820;">Galería</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="fechas.html">Fechas especiales</a>
+          <a class="nav-link " href="fechas.html" style="color: #E3A820;">Fechas especiales</a>
         </li>
       </ul>
       <hr class=" d-sm-nome">
     </div>
-    <div class="col-sm-10">
-      <div class="container">
-        <div class="row">
-          
-            <div class="heading">
-              <h3><span>Nuestra Galería</span></h3>
-            </div>
-            <div class="sub-heading">
-              <p>
-                Nuestro restaurante cuenta no solo con gran variedad gastronomica, sino tabién con múltiples eventos.
-              </p>
-            </div>
+    <div class="col-sm-2">      
+    </div>
+    <div class="col-sm-6 cen">
+      <div class="row">
+        <div class="container two">
+          <div id="carousel">
+            <figure><img class="figure" src="scss/img/evento1.jpeg" alt=""></figure>
+            <figure><img class="figure" src="scss/img/evento2.jpg" alt=""></figure>
+            <figure><img class="figure" src="scss/img/evento3.jpg"  alt=""></figure>
+            <figure><img class="figure" src="scss/img/evento4.jpg"  alt=""></figure>
+            <figure><img class="figure" src="scss/img/evento5.jpg" alt=""></figure>
+            <figure><img class="figure" src="scss/img/evento6.png" alt=""></figure>
+            <figure><img class="figure" src="scss/img/evento7.png"  alt=""></figure>
+            <figure><img class="figure" src="scss/img/evento8.png"  alt=""></figure>
+            <figure><img class="figure" src="scss/img/evento9.jpeg"  alt=""></figure>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="grid effect" id="grid">
-              <li>
-                <a class="fancybox" data-fancybox-group="gallery" title="Portfolio name" href="assets/img/portfolio/1.jpg">
-                  <img src="assets/img/portfolio/1.jpg" alt="" />
-                </a>
-              </li>
-              <li><a href="assets/img/portfolio/1.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/1.jpg
-                " alt="" /></a></li>
-              <li><a href="assets/img/portfolio/3.jpg" class="fancybox" data-fancybox-group="gallery"  title="Portfolio name"><img src="assets/img/portfolio/3.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/4.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/4.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/5.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/5.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/6.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/6.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/7.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/7.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/8.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/8.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/9.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/9.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/10.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/10.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/11.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/11.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/12.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/12.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/13.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/13.jpg" alt="" /></a></li>
-              <li><a href="assets/img/portfolio/14.jpg" class="fancybox" data-fancybox-group="gallery" title="Portfolio name"><img src="assets/img/portfolio/14.jpg" alt="" /></a></li>
-            </ul>
-          </div>
-        </div>
+      	</div>
       </div>
+    </div>
+    <div class="col-sm-2">      
+    </div>
   </div>
 </div>
+<div class="container" style="margin-top: 30px;">
+	<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-10 cen">
+		<div class="row">
+            
+      <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+        <img src="http://i.imgur.com/PUeaHfC.png" alt="" />
+        <div class="portfolio_images_overlay text-center">
+          <h6 class="clrd-font">Italian Source Mushroom</h6>
+        </div>
+        <a class="fancybox" rel="ligthbox" href="http://i.imgur.com/PUeaHfC.png">
+          <div class="zoom"></div>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+        <img src="http://i.imgur.com/uX3g4Nl.png" alt="" />
+        <div class="portfolio_images_overlay text-center">
+          <h6 class="clrd-font">Italian Source Mushroom</h6>
+        </div>
+        <a class="fancybox" rel="ligthbox" href="http://i.imgur.com/PUeaHfC.png">
+          <div class="zoom"></div>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+        <img src="http://i.imgur.com/8cOtAS9.png" alt="" />
+        <div class="portfolio_images_overlay text-center">
+          <h6 class="clrd-font">Italian Source Mushroom</h6>
+        </div>
+        <a class="fancybox" rel="ligthbox" href="http://i.imgur.com/8cOtAS9.png">
+          <div class="zoom"></div>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+        <img src="http://i.imgur.com/p7OYoBT.png" alt="" />
+        <div class="portfolio_images_overlay text-center">
+          <h6 class="clrd-font">Italian Source Mushroom</h6>
+        </div>
+        <a class="fancybox" rel="ligthbox" href="http://i.imgur.com/p7OYoBT.png">
+          <div class="zoom"></div>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+        <img src="http://i.imgur.com/uZeTibF.png" alt="" />
+        <div class="portfolio_images_overlay text-center">
+          <h6 class="clrd-font">Italian Source Mushroom</h6>
+        </div>
+        <a class="fancybox" rel="ligthbox" href="http://i.imgur.com/uZeTibF.png">
+          <div class="zoom"></div>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+        <img src="http://i.imgur.com/ymwlLln.png" alt="" />
+        <div class="portfolio_images_overlay text-center">
+          <h6 class="clrd-font">Italian Source Mushroom</h6>
+        </div>
+        <a class="fancybox" rel="ligthbox" href="http://i.imgur.com/ymwlLln.png">
+          <div class="zoom"></div>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+        <img src="http://i.imgur.com/PUeaHfC.png" alt="" />
+        <div class="portfolio_images_overlay text-center">
+          <h6 class="clrd-font">Italian Source Mushroom</h6>
+        </div>
+        <a class="fancybox" rel="ligthbox" href="http://i.imgur.com/PUeaHfC.png">
+          <div class="zoom"></div>
+        </a>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+        <img src="http://i.imgur.com/A8FRrbS.png" alt="" />
+        <div class="portfolio_images_overlay text-center">
+          <h6 class="clrd-font">Italian Source Mushroom</h6>
+        </div>
+        <a class="fancybox" rel="ligthbox" href="http://i.imgur.com/A8FRrbS.png">
+          <div class="zoom"></div>
+        </a>
+    </div>
 
+       
+      </div>
+    </div> 
+	</div>
+</div>
   <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark bg-dark">
   <!-- Footer Links -->
@@ -118,7 +238,7 @@
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-white" >
 
         <!-- Content -->
-        <h6 class="font-weight-bold">NOMBRE DE LA EMPRESA</h6>
+        <h6 class="font-weight-bold">Nombre de empresa</h6>
         <hr class="bg-warning accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>Descripsión pequeña de la empresa. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
@@ -129,7 +249,7 @@
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
 
         <!-- Links -->
-        <h6 class=" font-weight-bold">SERVICIOS</h6>
+        <h6 class=" font-weight-bold">Servicios</h6>
         <hr class="bg-warning accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
           <a href="galeria.html" class="text-white">Galería</a>
@@ -191,52 +311,15 @@
 
 </footer>
 <!-- Footer -->
-<!-- javascript -->
-<script src="assets/js/jquery-1.9.1.min.js"></script>
-<script src="assets/js/jquery.easing.js"></script>
-<script src="assets/js/classie.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="assets/js/slippry.min.js"></script>
-<script src="assets/js/nagging-menu.js"></script>
-<script src="assets/js/jquery.nav.js"></script>
-<script src="assets/js/jquery.scrollTo.js"></script>
-<script src="assets/js/jquery.fancybox.pack.js"></script>
-<script src="assets/js/jquery.fancybox-media.js"></script>
-<script src="assets/js/masonry.pkgd.min.js"></script>
-<script src="assets/js/imagesloaded.js"></script>
-<script src="assets/js/jquery.nicescroll.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
-<script src="assets/js/AnimOnScroll.js"></script>
-<script>
-  new AnimOnScroll(document.getElementById('grid'), {
-    minDuration: 0.4,
-    maxDuration: 0.7,
-    viewportFactor: 0.2
-  });
-</script>
-<script>
-  $(document).ready(function() {
-    $('#slippry-slider').slippry(
-      defaults = {
-        transition: 'vertical',
-        useCSS: true,
-        speed: 5000,
-        pause: 3000,
-        initSingle: false,
-        auto: true,
-        preload: 'visible',
-        pager: false,
-      }
 
-    )
-  });
-</script>
-
-<script src="assets/js/custom.js"></script>
-<script src="contactform/contactform.js"></script>
-
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
